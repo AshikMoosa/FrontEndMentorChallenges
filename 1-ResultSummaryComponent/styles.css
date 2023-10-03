@@ -41,6 +41,7 @@ main {
 
 .result-summary-container {
   display: flex;
+  flex-direction: row;
 }
 
 .result-summary-container .result,
@@ -186,4 +187,22 @@ main {
 
 .summary .continue-btn:active {
   background-image: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
+}
+
+/* Responsive design */
+@media screen and (max-width: 600px) {
+  .result-summary-container {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .result,
+  .summary {
+    width: 100% !important;
+  }
+
+  .result {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
 }
