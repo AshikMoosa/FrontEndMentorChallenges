@@ -11,7 +11,7 @@
   --light-slate-blue: hsl(252, 100%, 67%);
   --light-royal-blue: hsl(241, 81%, 54%);
   --violet-blue: hsla(256, 72%, 46%, 1);
-  --persian-blue: hsla(241, 72%, 46%, 0);
+  --persian-blue: hsla(241, 72%, 46%, 0.1);
 
   /* Neutral */
   --white: hsl(0, 0%, 100%);
@@ -37,4 +37,64 @@ main {
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+.result-summary-container {
+  display: flex;
+}
+
+.result-summary-container .result,
+.result-summary-container .summary {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  align-items: center;
+  width: 18em;
+}
+
+.result {
+  background-image: linear-gradient(var(--light-slate-blue), var(--light-royal-blue));
+  border: 1px solid black;
+  border-radius: 1em;
+  color: var(--white);
+  padding: 2em;
+  text-align: center;
+}
+
+.result .heading {
+  margin-top: 0;
+  color: var(--light-lavender);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.result .score {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(var(--violet-blue), var(--persian-blue));
+  border-radius: 50%;
+  height: 8em;
+  width: 8em;
+  text-align: center;
+}
+
+.score h1 {
+  font-size: xxx-large;
+  font-weight: 800;
+  margin: 0;
+}
+
+.score p {
+  color: var(--light-lavender);
+  font-weight: 500;
+  margin: 0;
+}
+
+.rating .rate {
+  font-weight: 500;
+}
+
+.rating .rating-info {
+  color: var(--light-lavender);
 }
