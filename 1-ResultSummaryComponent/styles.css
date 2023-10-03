@@ -65,6 +65,7 @@ main {
 
 .result .heading {
   margin-top: 0;
+  margin-bottom: 25px;
   color: var(--light-lavender);
   font-size: 18px;
   font-weight: 500;
@@ -76,8 +77,8 @@ main {
   justify-content: center;
   background-image: linear-gradient(var(--violet-blue), var(--persian-blue));
   border-radius: 50%;
-  height: 8em;
-  width: 8em;
+  height: 10em;
+  width: 10em;
   text-align: center;
 }
 
@@ -95,10 +96,12 @@ main {
 
 .rating .rate {
   font-weight: 500;
+  margin: 25px;
 }
 
 .rating .rating-info {
   color: var(--light-lavender);
+  margin: 0;
 }
 
 /* Summary Styles */
