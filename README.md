@@ -20,11 +20,13 @@ In this repository, you will find:
 
 Here is a list of the challenges I have completed so far:
 
-1. Challenge Name
-   - [Live Demo](link-to-live-demo)
-   - [Code](link-to-code)
+1. Result Summary Component
+
+   - [Live Demo](https://htmlpreview.github.io/?https://github.com/AshikMoosa/FrontEndMentorChallenges/blob/main/1-ResultSummaryComponent/index.html)
+   - [Code](https://github.com/AshikMoosa/FrontEndMentorChallenges/tree/main/1-ResultSummaryComponent)
 
 2. Challenge Name
+
    - [Live Demo](link-to-live-demo)
    - [Code](link-to-code)
 
